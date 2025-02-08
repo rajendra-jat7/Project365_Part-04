@@ -1,0 +1,59 @@
+.story-container {
+    position: relative;
+    width: 400px;
+    height: 700px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* 🔹 Progress Bar at Top */
+  .progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.3);
+    z-index: 10;
+  }
+  
+  .progress {
+    height: 100%;
+    background: #ff3e3e;
+    transition: width 0.3s linear;
+  }
+  
+  /* 🔹 Image */
+  .story-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* 🔹 Click Areas for Navigation */
+  .click-area {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    cursor: pointer;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    right: 0;
+  }
+  
+  .click-area:hover {
+    background: rgba(0, 0, 0, 0.1);
+    transition: background 0.2s ease-in-out;
+  }
+  
