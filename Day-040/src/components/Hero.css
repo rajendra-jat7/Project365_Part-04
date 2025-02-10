@@ -1,0 +1,11 @@
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: black;
+    color: #F9B101;
+  }
+  
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+  

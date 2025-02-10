@@ -1,0 +1,13 @@
+.pricing {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .price-box {
+    background: #f8f9fa;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  

@@ -1,0 +1,18 @@
+.services {
+    text-align: center;
+    padding: 40px;
+    background: #fff;
+  }
+  
+  .service-box {
+    background: #F9B101;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .service-box:hover {
+    transform: scale(1.05);
+  }
+  
