@@ -1,0 +1,126 @@
+.calendar-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Year List */
+.year-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  max-height: 150px;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.year-btn {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #333;
+  transition: 0.3s;
+}
+
+.year-btn:hover {
+  background: #ddd;
+}
+
+.year-btn.active {
+  background: #007bff;
+  color: white;
+}
+
+/* Month Grid */
+.month-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.month-btn {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.month-btn.active {
+  background: #28a745;
+}
+
+/* Calendar View */
+.calendar-view {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.calendar-view h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Weekdays Row */
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.weekday {
+  padding: 10px;
+  margin: 5px;
+  background: red;
+  border-radius: 3px;
+}
+
+/* Days Grid */
+.days-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.day-box {
+  background: #28a745;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.day-number {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.day-name {
+  font-size: 0.8rem;
+}
+
+/* Empty Placeholder for Alignment */
+.empty-day {
+  background: transparent;
+  visibility: hidden;
+}
