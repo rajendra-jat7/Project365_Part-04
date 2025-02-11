@@ -1,5 +1,5 @@
 import Stopwatch from "./components/Stopwatch";
-import DigitalClock from "./components/DigitalCLock";
+import DigitalClock from "./components/DigitalClock";
 import "./App.css";
 
 function App() {
